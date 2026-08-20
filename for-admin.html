@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>導入をご検討の管理者の方へ｜ぽろっと　ことばの練習</title>
+<meta name="description" content="施設の端末への導入を検討される情報システム担当者・管理責任者の方へ。通信を行わないこと、個人情報の入力項目がないこと、医療機器ではないこと、費用がかからないことをまとめています。">
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+    font-size: 18px;
+    line-height: 1.9;
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+    color: #1c1a17;
+    background: #fffdfa;
+  }
+  h1 { font-size: 1.55rem; line-height: 1.5; margin: 0 0 0.5rem; }
+  h2 { font-size: 1.2rem; margin: 2.4rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 2px solid #e4d8c8; }
+  h3 { font-size: 1.05rem; margin: 1.8rem 0 0.4rem; }
+  p, li { margin: 0.7rem 0; }
+  ul, ol { padding-left: 1.4rem; }
+  strong { color: #8a4f18; }
+  .lead {
+    background: #f7e7d5;
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    margin: 1.5rem 0 2rem;
+  }
+  .lead h3 { margin-top: 0; }
+  .lead ol { margin-bottom: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #e4d8c8; padding: 0.6rem 0.8rem; text-align: left; vertical-align: top; line-height: 1.7; }
+  th { background: #f7e7d5; white-space: nowrap; }
+  .note { color: #6b6259; font-size: 0.95rem; }
+  .meta { color: #6b6259; font-size: 0.95rem; margin-top: 3rem; }
+  a { color: #8a4f18; }
+  nav { margin-bottom: 2rem; font-size: 0.95rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #ece7e0; background: #1b1917; }
+    h2 { border-bottom-color: #4a4038; }
+    h3 { color: #ece7e0; }
+    strong { color: #e0a86a; }
+    .lead { background: #33291f; }
+    th, td { border-color: #4a4038; }
+    th { background: #33291f; }
+    .note, .meta { color: #a49a8f; }
+    a { color: #e0a86a; }
+  }
+  @media print {
+    body { font-size: 10.5pt; line-height: 1.65; max-width: none; padding: 0; color: #000; background: #fff; }
+    nav { display: none; }
+    h1 { font-size: 15pt; }
+    h2 { font-size: 12pt; margin: 1.1em 0 0.3em; page-break-after: avoid; }
+    h3 { font-size: 11pt; page-break-after: avoid; }
+    p, li { margin: 0.35em 0; }
+    strong { color: #000; }
+    .lead { background: #f2f2f2; border: 1px solid #999; padding: 0.6em 0.9em; margin: 0.8em 0 1em; }
+    table { font-size: 9.5pt; page-break-inside: avoid; }
+    th, td { border-color: #999; padding: 0.3em 0.5em; }
+    th { background: #f2f2f2; }
+    .meta { margin-top: 1.2em; }
+    a { color: #000; text-decoration: none; }
+  }
+  @page { size: A4; margin: 14mm 15mm; }
+</style>
+</head>
+<body>
+
+<nav><a href="./">← ぽろっと　ことばの練習について</a></nav>
+
+<h1>「ぽろっと　ことばの練習」<br>導入をご検討の管理者の方へ</h1>
+
+<p><strong>施設の端末に本アプリの導入を検討されている、情報システム担当者・管理責任者の方に向けた資料です。</strong></p>
+
+<p><strong>ことばの練習に使う、絵カードのアプリです。</strong>iPhone・iPad で動きます。<strong>App Store の「教育」カテゴリで配信しています。</strong></p>
+
+<div class="lead">
+<h3>判断に必要な3点</h3>
+<ol>
+  <li><strong>インターネット通信を行いません。本アプリを通じて</strong>利用者の情報が施設の外に出ることはありません</li>
+  <li><strong>アカウント登録がなく、住所・電話番号・メールアドレスの入力項目がありません</strong>(記録を分けるための<strong>お名前の欄だけ</strong>があり、入力は任意です)</li>
+  <li><strong>無料・課金なし・広告なし。</strong>予算の手続きは不要です</li>
+</ol>
+</div>
+
+<h2>1. インターネット通信を行いません</h2>
+
+<p><strong>本アプリは、通信する機能そのものを持っていません。</strong></p>
+
+<ul>
+  <li><strong>サーバーへの接続、外部サービスとの連携、広告配信、アクセス解析のいずれも行いません</strong></li>
+  <li><strong>直接使っている外部ライブラリは、音声再生・データ保存・ファイルパスの3つ</strong>で、通信を行うライブラリやアクセス解析のSDKは含めていません</li>
+  <li><strong>開発者が作成したプログラムには、外部へ通信する処理が1か所もありません</strong></li>
+  <li><strong>絵と音声はアプリの中に入っています。</strong>電波のない場所でも、すべての機能が使えます</li>
+</ul>
+
+<h3>確かめていただけます</h3>
+
+<table>
+  <tr><th>方法</th><th>見るもの</th></tr>
+  <tr>
+    <th>機内モードで使う</th>
+    <td><strong>機内モードのまま、すべての機能がそのまま使えます</strong>(通信していないため、動作が変わりません)。※Bluetoothのスピーカー・イヤホンをお使いの場合は、端末のスピーカーでお試しください</td>
+  </tr>
+  <tr>
+    <th>App Store のページ</th>
+    <td>「<strong>Appのプライバシー</strong>」の欄が「<strong>データを収集しません</strong>」と表示されます</td>
+  </tr>
+  <tr>
+    <th>利用中の許可の表示</th>
+    <td><strong>カメラ・マイク・写真・連絡先・位置情報の許可を求める表示が、一度も出ません</strong></td>
+  </tr>
+  <tr>
+    <th>ネットワーク側のログ</th>
+    <td><strong>本アプリだけを起動している間、その端末からの通信ログが増えません</strong>(プロキシ・ファイアウォール・フィルタリング製品などでご確認いただけます)</td>
+  </tr>
+</table>
+
+<h2>2. アカウント登録は不要。入力は任意のお名前だけです</h2>
+
+<ul>
+  <li><strong>アカウントの登録・ログインがありません。</strong>インストールしてすぐ使えます</li>
+  <li><strong>住所・電話番号・メールアドレスを入力する画面がありません</strong></li>
+  <li><strong>カメラ・マイク・写真・連絡先・位置情報を利用しません。</strong>これらの利用許可を求めることもありません</li>
+  <li><strong>診断名・年齢・症状などを入力する項目もありません</strong></li>
+</ul>
+
+<p><strong>記録を分けたい場合に、お名前を入力する欄だけがあります。</strong></p>
+
+<ul>
+  <li><strong>入力は任意です。</strong>名前を登録しなくても、すべての機能が使えます</li>
+  <li><strong>入力された内容は、その端末の中にだけ保存されます。</strong>外部へ送信されず、開発者が見ることもできません</li>
+  <li><strong>本名である必要はありません。</strong>アプリの画面でも、ニックネームやイニシャルでの登録をご案内しています</li>
+  <li><strong>アプリ内でいつでも削除できます。</strong>削除(アンインストール)すれば端末内の情報もすべて消えます</li>
+</ul>
+
+<p><strong>練習の記録(いつ・どの練習を・どのことばで行ったか、その結果、ヒントの使用、答えるまでにかかった時間、画面のどこを押したか)や、そこから計算されるポイント、アプリの設定も、同じように端末の中にだけ保存されます。</strong>外部へ送信されません。<strong>これらは練習の画面の中で起きたことだけの記録で、アプリの外での行動を調べるものではありません</strong>(詳細はプライバシーポリシー2項)。</p>
+
+<p><strong>プライバシーポリシー</strong>: <a href="https://porotto-app.com/privacy.html">https://porotto-app.com/privacy.html</a></p>
+
+<h2>3. 医療機器ではありません</h2>
+
+<p><strong>本アプリは練習を支援するツールであり、医療機器ではありません。病気の診断・治療・治癒・予防を目的とするものではありません。専門職による支援や指導に代わるものではありません。練習の内容や、健康・医療に関する判断が必要な場合は、医師や言語聴覚士などの専門家にご相談ください。</strong></p>
+
+<ul>
+  <li><strong>医学的な評価や症状の判定、発話能力の自動判定、治療方針や練習内容の個別のおすすめは行いません。</strong>練習の結果は、決められた正解との一致と、固定の点数による記録・集計として表示します</li>
+  <li><strong>アプリが声を聞き取って判定することはありません</strong></li>
+  <li><strong>「話す」は、できたかどうかを、ご本人または支援する方が [◯] [？] で選んで記録します</strong></li>
+  <li><strong>設定はすべて人が選びます。アプリが設定を自動で変えることはありません</strong></li>
+</ul>
+
+<p><strong>たまったポイントで出題する範囲を絞る設定もあります。</strong>基準を選ぶのは人で、どのことばが当てはまるかは、その端末の中の記録から計算されます。練習の後に出る「？をやりなおす」も同じで、<strong>その回にポイントが増えなかったことばをもう一度出す機能</strong>です。</p>
+
+<p class="note">※選んだ条件に当てはまることばが足りないときは、出題ごとに選択肢の数が少なくなることがあります。</p>
+
+<h2>4. 費用はかかりません</h2>
+
+<ul>
+  <li><strong>無料です。</strong>アプリ内課金・サブスクリプションはありません</li>
+  <li><strong>広告は表示されません</strong></li>
+  <li><strong>予算の手続きは不要です</strong></li>
+</ul>
+
+<h2>5. 動作環境</h2>
+
+<table>
+  <tr><th>対応端末</th><td>iPhone・iPad</td></tr>
+  <tr><th>必要なOS</th><td><strong>iOS / iPadOS 13.0 以降</strong></td></tr>
+  <tr><th>サイズ</th><td>約 83 MB(App Store の表示。端末上の容量は異なる場合があります)</td></tr>
+  <tr><th>言語</th><td>日本語</td></tr>
+  <tr><th>年齢制限</th><td>4+</td></tr>
+</table>
+
+<h2>6. 提供者と連絡先(お問い合わせ窓口)</h2>
+
+<p><strong>本アプリの提供・運営・お問い合わせ対応は、下記が行います。</strong></p>
+
+<table>
+  <tr><th>提供者</th><td><strong>Yugo Okamoto</strong>(個人開発)</td></tr>
+  <tr><th>連絡先</th><td><strong>info@porotto-app.com</strong></td></tr>
+  <tr><th>App Store</th><td><a href="https://apps.apple.com/jp/app/id6800091757">https://apps.apple.com/jp/app/id6800091757</a></td></tr>
+  <tr><th>Webサイト</th><td><a href="https://porotto-app.com/">https://porotto-app.com/</a></td></tr>
+</table>
+
+<p><strong>ご不明な点は、上記のメールアドレスへお問い合わせください。配布方法についてのご質問も、同じ窓口で承ります。</strong></p>
+
+<p class="note">※施設や事業所など組織の端末でお使いになる場合は、お名前や記録の取り扱いについて、その組織の個人情報の取り扱いの決まりに従ってご利用ください。</p>
+
+<p class="note">※個人で開発・運営しているため、お返事にお時間をいただくことがあります。</p>
+
+<p class="meta">
+本資料の記載内容は 2026年8月20日現在(アプリ バージョン 1.0)のものです。<br>
+Yugo Okamoto
+</p>
+
+</body>
+</html>
